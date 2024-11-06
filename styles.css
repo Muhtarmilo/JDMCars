@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #1e1e1e, #111);
+    color: #fff;
+    width: 100%;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    color: #b3b3b3;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    background: #1a1a1a;
+    border-radius: 12px;
+    margin: 40px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.car-card {
+    min-width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: #ffc;
+}
+
+.car-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.car-info h2 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin: 20px 0;
+}
+
+.car-info h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin: 10px 0;
+}
+
+.short-desc {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
